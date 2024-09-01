@@ -1,15 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Navbar from "./component/Navbar";
+import Hero from "./component/Hero";
+import Contact from "./component/Contact";
+import About from "./component/About";
+import Skills from "./component/Skills";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      Patrick
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Contact />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
