@@ -1,7 +1,7 @@
 import {
   AiOutlineGithub,
   AiOutlineLinkedin,
-  AiOutlineInstagram,
+  AiOutlineFacebook,
 } from "react-icons/ai";
 import { motion } from "framer-motion";
 import Reveal from "./Reveal";
@@ -24,16 +24,28 @@ const Contact = () => {
               </p>
 
               <div className="ml-5 mt-4 flex justify-start gap-6 text-5xl md:text-4xl text-orange-500 z-20">
-                <motion.a whileHover={{ scale: 1.2 }} href="#">
+                <motion.a
+                  whileHover={{ scale: 1.2 }}
+                  href="https://github.com/PatrickPablo147"
+                  target="_blank"
+                >
                   <AiOutlineGithub />
                 </motion.a>
 
-                <motion.a whileHover={{ scale: 1.2 }} href="#">
+                <motion.a
+                  whileHover={{ scale: 1.2 }}
+                  href="https://www.linkedin.com/in/patrick-pablo-193b30268/"
+                  target="_blank"
+                >
                   <AiOutlineLinkedin />
                 </motion.a>
 
-                <motion.a whileHover={{ scale: 1.2 }} href="#">
-                  <AiOutlineInstagram />
+                <motion.a
+                  whileHover={{ scale: 1.2 }}
+                  href="https://www.facebook.com/profile.php?id=61551874291006"
+                  target="_blank"
+                >
+                  <AiOutlineFacebook />
                 </motion.a>
               </div>
             </div>

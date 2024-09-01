@@ -120,7 +120,7 @@ const Skills = () => {
                     scale: 1.25,
                     boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)",
                   }}
-                  className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto px-7 py-3 bg-orange-500 items-center gap-2 mt-4"
+                  className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto px-7 py-3 bg-orange-500 items-center gap-2 mt-2 mb-4"
                 >
                   <a href={project.link} target="_blank">
                     Download
